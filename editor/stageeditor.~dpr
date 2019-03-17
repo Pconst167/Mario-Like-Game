@@ -1,0 +1,13 @@
+program stageeditor;
+
+uses
+  Forms,
+  editor in 'editor.pas' {feditor};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(Tfeditor, feditor);
+  Application.Run;
+end.
